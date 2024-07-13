@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.container__botao {
+    display: none;
+}
+
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -33,6 +37,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 /* Webkit é para funcionar em alguns navegadores e background-clip aplica a cor do degrade direto na fonte */
