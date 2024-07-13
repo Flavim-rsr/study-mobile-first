@@ -1,8 +1,10 @@
+/* Position relative permite mexer em outros atributos topo, baixo, esquerda e direita */
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .cabeçalho__menu-hamburguer {
@@ -13,6 +15,19 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 1em;
+}
+
+/* Checked é uma pseudo classe, verifica se a checkbox esta verificada */
+/* ~ é um combinador como se fosse uma condicional */
+.container__botao:checked~.lista-menu {
+    display: block; /*2*/
+}
+
+/* Permite que movimente o elemento de acordo com o elemento anterior que fique diferente de estatico */
+.lista-menu {
+    display: none;
+    position: absolute; /*1*/
+    top: 100%;
 }
 
 .container {
