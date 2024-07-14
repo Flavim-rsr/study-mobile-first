@@ -1,4 +1,4 @@
-.carrosel__titulo {
+.carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
     text-align: center;
@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
