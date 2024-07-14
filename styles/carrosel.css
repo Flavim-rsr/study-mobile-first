@@ -69,7 +69,6 @@
     background-color: var(--laranja);
     color: var(--branco);
     text-decoration: none;
-    border: 1px solid;
     padding: 1em 2.2em;
     font-weight: 700;
 }
