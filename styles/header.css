@@ -30,7 +30,7 @@
 /* Permite que movimente o elemento de acordo com o elemento anterior que fique diferente de estatico */
 .lista-menu {
     display: none;
-    position: absolute; /*1*/
+    position: absolute;
     top: 100%;
     width: 60vw;
 }
