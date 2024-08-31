@@ -11,7 +11,7 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="Img/aluraBook.jpg" alt="Image Example" width="400px">
+    <img src="Img/AluraBook.jpeg" alt="Image Example" width="400px">
 </p>
 
 <h2 id="technologies">💻 Tecnologias </h2>
